@@ -2,7 +2,8 @@ import Vapor
 import Leaf
 import FluentSQLite
 
-//swift run Run --hostname 0.0.0.0 --port 9000
+// swift run Run --hostname 192.168.1.144 --port 8000
+// swift run Run --hostname 192.168.1.144 --port 9000
 
 /// Called before your application initializes.
 public func configure(_ config: inout Config, _ env: inout Environment, _ services: inout Services) throws {
